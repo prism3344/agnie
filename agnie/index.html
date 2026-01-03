@@ -1,0 +1,86 @@
+
+<html>
+<head>
+    <style>
+        h1 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+        p, a {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        a { font-size: 20px; text-decoration: none; color: #007bff; }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start; 
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding-top: 50px; 
+            background-color: #222;
+            background-image: url(tlo.png);
+            background-size: cover;
+            text-align: center;
+            color: white;
+        }
+
+        .content-wrapper {
+            margin-bottom: 40px;
+        }
+
+        .eyes-container {
+            display: flex;
+            gap: 30px; 
+        }
+        b {color: rgb(255, 255, 255); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+        .eye {
+            width: 100px;
+            height: 100px;
+            background-color: white;
+            border-radius: 50%;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 20px rgba(0,0,0,0.5);
+            animation: blink 5s infinite;
+        }
+
+        .pupil {
+            width: 40px;
+            height: 40px;
+            background-color: #333;
+            border-radius: 50%;
+            transition: 0.1s linear; 
+        }
+        h2 {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+   
+        @keyframes blink {
+            0%, 94%, 100% { transform: scaleY(1); }
+            97% { transform: scaleY(0.05); }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content-wrapper">
+        <h1>Agnieszka</h1>
+        <p>pełny opis</p>
+    </div>  
+    <a href="https://prism3344.github.io/d11/">STRONA GŁÓWNA</a>
+    <b>Agnieszka(ur. prawdopodobnie 15 sierpnia 1982 roku)</b>
+    <br>
+    <b>Mieszka ona w drobinie razem z swoim wybrankiem <a href="https://prism3344.github.io/makajler/">Makajlerem</a>,</b>
+    <br>
+    <b>Była ona pielegniarką.</b>
+    <br>
+    <b>Uważa ona, że makajler jest chory psychicznie.</b>
+    <br>
+    <b>Nie ma o tej osobie zbyt dużo informacji mimo tego wiemy, że pracowała ona z makajlerem w ich restauracji</b>
+    <br>
+
+</body>
+</html>
